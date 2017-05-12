@@ -1,6 +1,6 @@
 # Entropy - The Time Machine
 
-> Even though no pair of observers can't agree on what happened, in what order, or even where it happened, the thing they can agree on is the Space-time interval given by: (Sˆ2)=(Xˆ2)-(Cˆ2)(Tˆ2)
+> Even though no pair of observers can agree on what happened, in what order, or even where it happened, the thing they can agree on is the Space-time interval given by: (Sˆ2)=(Xˆ2)-(Cˆ2)(Tˆ2)
 
 So, some of you may consider time to be an actual thing that happens, not a consequence of anything. Although most people actually consider it to be an extra dimension of some sorts(And that interpretation actually works with the numbers) most people just assume it's a thing that happens, if you exist, time moves for you.
 
