@@ -1,66 +1,19 @@
-# On the topic of recursion
+# On the topic of loneliness
 
-Então. Eu estive assistindo um filme hoje que me deixou meio pra baixo. Nem era ruim o filme, eu só sei que querendo ou não eu odeio com cada fibra do meu ser quando os filmes que eu assisto não levam a lugar algum. Quando o universo do filme decide por ser recursivo e acabar exatamente onde começou.
+Guria, eu nao quero transar. Sério mesmo.
 
-Um sistema recursivo é autoreferencial, o que quer dizer que ele precisa de soluções que ele mesmo cria para responder a pergunta que ele está fazendo. Como todos os tópicos bons de se conversar a respeito na vida, este tem um exemplo simples e fácil de entender:
+Eu quero passar na tua casa as oito da manha, subir em cima da moto e fazer 300km antes de pensar em almoçar, eu quero parar em qualquer lugar, te deixar escorada na moto e deitar no teu colo, ficar olhando para as nuvens e falando qualquer coisa aleatoria, eu quero que tu faça carinho no meu cabelo e me faça ficar com sono.
 
-```py
-def fact(x):
-    if x==0:
-      return 1
-    else:
-      return x * fact(x-1)
-```
-O que essa fórmula quer dizer é, olha se o número que está sendo passado é zero, se for, manda de volta, se não, o numero que a gente procura vai ser o número multiplicado pelo que voltar da função quando se colocar nela o número menos um.
+Eu quero me levantar com os cotovelos só pra te dar um beijo e eu quero não pensar em mais nada no mundo todo. Eu quero poder falar qualquer coisa e não pensar no que eu estou fazendo. Eu quero que tu goste de ficar comigo e eu quero não sentir a estrada ficando pra trás por ter alguém falando comigo enquanto eu ando. Eu quero ouvir dos teus problemas e me sentir importante, eu quero ficar ilhado em uma cidadezinha no meio do nada e arrumar as máquinas de um cara que a gente conheceu no bar ontem pra conseguir dinheiro pra voltar pra casa.
 
-Bem fácil de ver onde isso dá errado, coloque um número moderadamente pequeno nessa fórmula, como 100, e pra chegar no resultado se precisa passar pelo programa cem vezes, não é muito eficiente, e por estas e outras programadores tentam não usar recursividade em programas onde ela pode ser desmontada, eliminando a necessidade de um programa que referencia a sí mesmo.
+Eu quero passar o dia todo contigo me abraçando, eu quero te abraçar e ver nos teus olhos que não tem nenhum lugar que tu iria preferir estar. Eu quero dormir em baixo de uma árvore e reclamar que os insetos estão me mordendo, eu quero que tu dê beijinhos onde eles mordem pra não doer mais.
 
-O problema dessa veia de pensamento não é a programação, isso é só um jeito de pensar a respeito, o problema é quando a recursividade começa a aparecer no mundo real e as coisas começam a se tornar cíclicas.
+Eu quero te levar pra algum lugar que tu nunca foi e quero que tu ache legal que fui eu que te levei, quero te ver feliz e quero que tu esqueça tudo que tinha pra fazer o mês inteiro.
 
-Não deve ser surpresa pra maioria das pessoas que se importam o bastante pra ler isso que eu tenho passado por algumas crises de identidade nos últimos tempos. Eu não sei mas o que sou, não sei o que quero e não aguento mais viver a minha vida entre um momento feliz e outro.
+Eu quero sentir o teu coração bater mais forte quando eu passo a mão nas tuas costas, eu quero que tu goste das coisas idiotas que eu digo e que não ache idiota as coisas que eu falo. Quero passar o dia inteiro pensando em coisas que iam te deixar feliz e quero que tu tenha a vontade de me deixar feliz também.
 
-E foi hoje a tarde que eu me dei conta do motivo pra não aguentar mais.
+Eu quero tentar voltar pra casa às cinco da tarde e parar a força na beira da estrada, Dormir em uma barraca de conchinha e conversar a noite toda. Quero poder pegar aquelas garrafas de cerveja das malas da moto e ter companhia pra beber, acordar morrendo de ressaca e mais feliz do que qualquer pessoa no mundo.
 
-Eu ví Suicide Squad hoje. E quando a última cena começou a passar eu me dei conta de que, eu também, sempre volto pro mesmo lugar onde comecei, querendo ou não.
+Eu quero te mostrar uma banda aleatória que eu ouvi essa semana e quero que tu ache que ela é legal do jeito que eu achei, quero poder pegar o violão na mão e te ouvir cantando, mesmo que seja desafinada, só pelo prazer de ouvir a tua voz me acompanhando de um jeito que ninguém mais faz.
 
-Eu sei o que vai acontecer daqui em diante:
-
-* Em algumas semanas, ou quem sabe alguns mêses, eu vou arrumar alguém que eu vou acreditar ser o amor da minha vida.
-
-* Nesse meio tempo eu vou estar entrando em algum campo de pesquisa que me agrada no momento, e vai ser o catalísta de algumas conversas boas que vamos ter.
-
-* Eu vou começar a viver como uma pessoa normal por alguns mêses, eu vou ter um emprego, eu vou estudar.
-
-* Eu vou fazer alguma coisa ridículamente incrível, que as pessoas da minha convivência não vão nem acreditar que foi ideia minha.
-
-* Vou começar a ter autoestima de novo.
-
-* Vou fazer mais algumas coisas legais que nunca vão sair do papel por um motivo ou outro e a pessoa que estiver comigo vai tentar me ajudar a fazer alguma delas, sem sucesso.
-
-* Vou começar a ficar deprimido. Não desesperadoramente no começo, só o bastante pra dita pessoa notar.
-
-* Alguma coisa vai acontecer. Nós vamos terminar. Eu vou ficar ainda mais depressivo.
-
-* Reset.
-
-O resultado do programa vai ser que eu vou ter algumas cicatrizes novas pra mostrar e umas histórias a mais pra lembrar.
-
-Como aquela vez que nós andamos uns cem quilômetros a pé. Ou aquelas fotos que fizemos na galeria do café. Ou aquela vez que a gente ficou bebendo no estúdio e conversando a noite toda.
-
-Eu não aguento mais ficar assim por saber que é assim que eu sempre fico.
-
-Eu posso até fingir por um tempo que a minha vida mudou e que eu fugi do ciclo, mas a vida não muda, são pessoas diferentes passando pelas mesmas situações, em lugares diferentes.
-
-Eu me sinto preso em uma rotina sem sentido, sozinho e sem vontade de conhecer mais ninguém, repetindo os mesmos erros por não saber o que mais eu posso fazer. Se eu pudesse colocar só mais uma cláusula no algoritmo.
-
-```py
-def life(drunk, loving):
-  if drunk==True:
-    return cycle1
-  elif loving==True:
-    return cycle2
-  else:
-    return 0;
-```
-
-Guilherme Chimello
+Eu quero chegar em casa atrasado pra tudo e não me importar, por saber que nada mais na vida ia me deixar tão feliz quanto isso me deixou. Quero que tu pense assim também. E depois disso tudo, aí sim, eu quero transar feito um animal.
